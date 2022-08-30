@@ -24,15 +24,12 @@ func main(){
 	fmt.Printf("x: %v, %T\n", x, x)
 	fmt.Printf("z: %v, %T\n", z, z)
 	
-	k := 10 + 10
+	k := 10 < 10
 
 	fmt.Printf("k: %v, %T\n", k, k)
 
 }
 
-
-
-	
 
 
 // marmota só funciona dentro de um codeblock
