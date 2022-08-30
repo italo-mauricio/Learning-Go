@@ -6,10 +6,11 @@ import (
 
 )
     
-  
 func main() {
-    // aqui começa o código
-    numerodebytes; erros := fmt.Println(" Hello world", "sadasdasd")
-    fmt.Println(numerodebytes, erros)
+    
+    x := 16
+    y := "strings"
+    z := true
+    fmt.Println(x, y, z)
     // aqui termina o código
 }
