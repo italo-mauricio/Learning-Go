@@ -9,6 +9,8 @@ import (
 
 )
 
+var y = "ola bom dia"
+
 func main(){
 
 	x := 10.0
@@ -23,3 +25,13 @@ func main(){
 	fmt.Printf("z: %v, %T", z, z)
 
 }
+
+
+// marmota só funciona dentro de um codeblock
+/*
+	nomes reservados não podem ser usados como variavel
+	exemplos (package, fun, var, break, case, chan, const, defaut, map, interface
+	continue, defer, else, falithrough, for, go, goto, if, import, range, return
+	select, struct, switch, type.)
+
+*/
