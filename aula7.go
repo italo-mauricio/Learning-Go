@@ -11,11 +11,13 @@ import (
 )
 
 type hotdog int
+type pedra float64
 var b hotdog
-
+var a pedra
 func main() {
 
-	fmt.Printf("%T", b)
+	fmt.Printf("%v , %T\n", b, b)
+	fmt.Printf("%v, %T", a, a)
 
 }
 
