@@ -2,17 +2,15 @@ package main
 
 import (
 
-	"fml"
-
+	"fmt"
 )
 
 /*
-
 Pacote fmt:
 	Setup: strings, ints, bools
-	Striings: interpreted string literal vs. raw string literals. 
-		Rune Literals. 
-		Em ciência da computação, um literal é uma notação para representar um valor fixo no código fonte. 
+	Striings: interpreted string literal vs. raw string literals.
+		Rune Literals.
+		Em ciência da computação, um literal é uma notação para representar um valor fixo no código fonte.
 		Format printing: documentação.
 			Grupo #1: Print -> standard out
 			func Print(a ...interface{}) (n int, err error)
@@ -31,10 +29,27 @@ Pacote fmt:
 			by: https://github.com/vkorbes/aprendago/blob/master/OUTLINE.md
 */
 
+/* func main() {
 
-func main() {
+	x := `"ola bom dia\n como vai?\nespero que tudo bem"`
+	fmt.Println(x)
 
 
+
+	// com o acento ` a formatação fica literal, não importando de qual jeito eu digite
+
+}
+
+*/
+
+func main(){
+
+	x := "oi"
+	y := "bom dia"
+
+	z := fmt.Sprint(x, " ", y)
+
+	fmt.Println(z)
 
 
 
