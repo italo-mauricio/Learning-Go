@@ -23,39 +23,20 @@ Use var para package-level scope
 
 
 
-Pacote fmt:
-	Setup: strings, ints, bools
-	Striings: interpreted string literal vs. raw string literals. 
-		Rune Literals. 
-		Em ciência da computação, um literal é uma notação para representar um valor fixo no código fonte. 
-		Format printing: documentação.
-			Grupo #1: Print -> standard out
-			func Print(a ...interface{}) (n int, err error)
-			func Println(a ...interface{}) (n int, err error)
-			func Printf(format string, a ...interface{}) (n int, err error)
-			Format verbs. (%v %T)
-			Grupo #2: Print -> string, pode ser usado como variável
-			func Sprint(a ...interface{}) string
-			func Sprintf(format string, a ...interface{}) string
-			func Sprintln(a ...interface{}) string
-			Grupo #3: Print -> file, writer interface, e.g. arquivo ou resposta de servidor
-			func Fprint(w io.Writer, a ...interface{}) (n int, err error)
-			func Fprintf(w io.Writer, format string, a ...interface{}) (n int, err error)
-			func Fprintln(w io.Writer, a ...interface{}) (n int, err error)
-
-
 			by: https://github.com/vkorbes/aprendago/blob/master/OUTLINE.md
 */
 
+var a int
+var b float64
+var c string
+var d bool
 
 func main(){
 
-	x = 10
-	fmt.Printf("%v, %T", x, x)
-	x = 20
-	fmt.Printf("%v, %T", x, x)
-
-
-
+	fmt.Printf("%v, %T\n", a, a)
+	fmt.Printf("%v, %T\n", b, b)
+	fmt.Printf("%v, %T\n", c, c)	
+	fmt.Printf("%v, %T\n", d, d)
+	
 
 }
