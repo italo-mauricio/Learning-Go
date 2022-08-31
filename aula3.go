@@ -13,12 +13,13 @@ import (
 	"fmt"
 
 )
-var y = 10
+var y = 10   // o var funciona fora do codeblock
 
 func main(){
+	
+	z := 20
 
-	y := 10
-	random (y)
+	random (z)
 
 }
 
