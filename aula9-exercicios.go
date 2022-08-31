@@ -17,13 +17,19 @@ import (
 
 */
 
-var x int = 42
-var y string = "James Bond"
-var z bool = true
 
 func main (){
 
-	fmt.Printf("%v, %T", x, x, "%v, %T\n", y, y, "%v, %T\n", z, z)
+	x := 42
+	y := "James Bond"
+	z := true
+
+	fmt.Printf("Valor da variável x é %v\nE o seu tipo é %T\n", x, x)
+	fmt.Printf("Valor da variável y é %v\nEo seu tipo é %T\n", y, y)
+	fmt.Printf("Valor da variável z é %v\nEo seu tipo é %T\n", z, z)
+	fmt.Println(x)
+	fmt.Println(y)
+	fmt.Println(z)
 
 
 }
